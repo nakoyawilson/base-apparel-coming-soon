@@ -27,7 +27,8 @@ main {
 .main-content {
   background-image: url(../images/bg-pattern-desktop.svg),
     linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 4rem 10rem;
 }
 
@@ -56,6 +57,11 @@ main {
 
 .mobile {
   display: none;
+}
+
+.desktop-image {
+  height: 100vh;
+  width: auto;
 }
 
 .form-content {
