@@ -17,6 +17,7 @@ body {
   color: var(--desaturated-red);
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
+  height: 100vh;
 }
 
 main {
@@ -67,7 +68,7 @@ input {
   border: 1px solid var(--desaturated-red);
   background-color: transparent;
   border-radius: 50px;
-  width: 400px;
+  width: 450px;
   font-size: 1rem;
   color: inherit;
 }
@@ -75,7 +76,12 @@ input {
 .error-icon {
   display: none;
   position: absolute;
-  margin: 0.75rem 1rem 0 0;
+  right: 180px;
+  top: 12px;
+}
+
+.error-message {
+  color: var(--soft-red);
 }
 
 button {
@@ -85,8 +91,12 @@ button {
   width: 100px;
   padding: 0.9rem;
   position: absolute;
-  right: 80px;
+  right: 60px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* Footer Section */
