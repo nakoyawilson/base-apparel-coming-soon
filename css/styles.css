@@ -70,18 +70,25 @@ input {
   border-radius: 50px;
   width: 450px;
   font-size: 1rem;
-  color: inherit;
+  color: var(--grayish-red);
+}
+
+::placeholder {
+  color: var(--desaturated-red);
+  opacity: 0.5;
 }
 
 .error-icon {
   display: none;
   position: absolute;
   right: 180px;
-  top: 12px;
+  top: 13px;
 }
 
 .error-message {
   color: var(--soft-red);
+  padding: 0.5rem 0 0 2rem;
+  font-size: 0.8rem;
 }
 
 button {
@@ -97,6 +104,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 /* Footer Section */
