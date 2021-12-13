@@ -23,7 +23,7 @@
           <img src="images/logo.svg" alt="" />
         </div>
         <div class="text">
-          <h1>We're <span class="emphasis">coming soon</span></h1>
+          <h1 class="title">We're <span class="emphasis">coming soon</span></h1>
           <p class="paragraph">
             Hello fellow shoppers! We're currently building our new fashion
             store. Add your email below to stay up-to-date with announcements
@@ -32,9 +32,18 @@
         </div>
         <div class="form" novalidate>
           <form>
-            <input type="email" placeholder="Email address" />
-            <img src="images/icon-error.svg" alt="" />
-            <button><img src="images/icon-arrow.svg" alt="" /></button>
+            <div class="form-content">
+              <input type="email" placeholder="Email address" />
+              <img
+                src="images/icon-error.svg"
+                alt="error icon"
+                class="error-icon"
+              />
+              <button>
+                <img src="images/icon-arrow.svg" alt="arrow button" />
+              </button>
+              <p class="error-message"></p>
+            </div>
           </form>
         </div>
       </div>
