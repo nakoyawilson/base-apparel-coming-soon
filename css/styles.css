@@ -191,8 +191,7 @@ button:hover {
   }
 
   .error-icon {
-    width: 85%;
-    height: auto;
+    padding-right: 0.25rem;
   }
 
   button {
