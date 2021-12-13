@@ -17,6 +17,11 @@ submit.addEventListener("click", (e) => {
     errorMessage.style.display = "block";
     errorMessage.innerHTML = "Please provide a valid email";
     inputField.style.border = "2px solid hsl(0, 93%, 68%)";
+  } else {
+    errorIcon.style.display = "none";
+    errorMessage.style.display = "none";
+    inputField.style.border = "1px solid hsla(0, 6%, 24%, 0.2)";
+    inputField.value = "";
   }
   e.preventDefault();
 });
