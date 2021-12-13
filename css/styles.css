@@ -65,7 +65,7 @@ main {
 input {
   font-family: inherit;
   padding: 1rem 2rem;
-  border: 1px solid var(--desaturated-red);
+  border: 1px solid hsla(0, 6%, 24%, 0.2);
   background-color: transparent;
   border-radius: 50px;
   width: 450px;
