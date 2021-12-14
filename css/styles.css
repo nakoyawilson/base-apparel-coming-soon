@@ -62,11 +62,6 @@ body {
   display: none;
 }
 
-.desktop-image {
-  height: 100vh;
-  width: auto;
-}
-
 .form-content {
   padding: 0;
   width: 450px;
