@@ -21,6 +21,8 @@ body {
 
 .container {
   display: flex;
+  width: min(100%, 1440px);
+  margin: auto;
 }
 
 .main-content {
