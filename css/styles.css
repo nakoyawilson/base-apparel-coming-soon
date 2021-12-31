@@ -40,6 +40,11 @@ body {
   padding-bottom: 8rem;
 }
 
+.desktop-image {
+  max-height: 100vh;
+  width: auto;
+}
+
 .title {
   text-transform: uppercase;
   font-weight: 300;
@@ -114,6 +119,9 @@ button:hover {
 }
 
 /* Footer Section */
+footer {
+  margin-bottom: 1rem;
+}
 .attribution {
   font-size: 11px;
 }
