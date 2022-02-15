@@ -23,13 +23,21 @@
           <div class="logo">
             <img src="images/logo.svg" alt="Base Apparel logo" />
           </div>
-          <div class="mobile">
-            <img
-              src="images/hero-mobile.jpg"
-              alt="Woman in an orange shirt"
-              class="mobile-image"
+          <picture class="image-wrapper">
+            <source
+              media="(max-width: 1240px)"
+              srcset="images/hero-mobile.jpg"
             />
-          </div>
+            <source
+              media="(min-width: 1241px)"
+              srcset="images/hero-desktop.jpg"
+            />
+            <img
+              src="iimages/hero-desktop.jpg"
+              alt="Woman in an orange shirt"
+              class="image"
+            />
+          </picture>
         </header>
         <main>
           <div class="text">
@@ -84,13 +92,6 @@
           </p>
         </footer>
       </div>
-      <figure class="desktop">
-        <img
-          src="images/hero-desktop.jpg"
-          alt="Woman in an orange shirt"
-          class="desktop-image"
-        />
-      </figure>
     </div>
     <script src="js/main.js"></script>
   </body>
